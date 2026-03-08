@@ -1,0 +1,16 @@
+{
+  "features": [
+    "B365H",
+    "B365D",
+    "B365A",
+    "ip_home",
+    "ip_draw",
+    "ip_away",
+    "fav_prob",
+    "und_prob",
+    "prob_gap",
+    "log_oh",
+    "log_od",
+    "log_oa"
+  ]
+}

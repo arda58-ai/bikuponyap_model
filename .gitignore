@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.so
+.venv/
+venv/
+env/
+
+# Ortam / gizlilik
+.env
+.env.local
+*.key
+
+# macOS
+.DS_Store
+
+# Veri (büyük / makineye özel – GitHub'a yükleme)
+data/processed/*.csv
+data/processed/*.txt
+data/raw/*
+!data/raw/.gitkeep
+
+# Model dosyaları (isteğe bağlı – çok büyükse ekleyebilirsin)
+# data/processed/*.txt
+# data/processed/lgbm_model_calibrated.txt
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
