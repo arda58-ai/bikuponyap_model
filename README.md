@@ -6,6 +6,8 @@ Futbol maçları için tahmin pipeline'ı: Model-B (1X2), OU2.5, Supersonic kupo
 
 ## Kurulum
 
+**Git henüz yoksa veya ilk kez kullanıyorsan:** Önce [GIT_KURULUM_VE_KULLANIM.md](GIT_KURULUM_VE_KULLANIM.md) dosyasına bak (Git kurulumu, token, clone adımları).
+
 ```bash
 git clone https://github.com/arda58-ai/bikuponyap_model.git
 cd bikuponyap_model
@@ -44,6 +46,8 @@ Veya önce boot, sonra pipeline: `python src/supersonic_boot.py`
 
 | Dosya | Açıklama |
 |-------|----------|
+| **`GIT_KURULUM_VE_KULLANIM.md`** | **Git kurulumu (macOS/Windows), token, clone, pull, push – sıfırdan** |
+| `IKINCI_PC_BAGLANTI.md` | İkinci PC’yi repoya bağlama |
 | `DÜZEN_KILAVUZ.md` | Pipeline sırası, lig eşlemesi, dosya konumları |
 | `PUAN_DURUMU_ADIM_ADIM.md` | Puan durumu verisi nasıl üretilir (adım adım) |
 | `GITHUB_YUKLEME.md` | GitHub’a yükleme ve push |
